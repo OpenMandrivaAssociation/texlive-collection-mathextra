@@ -1,4 +1,4 @@
-# revision 21870
+# revision 25870
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-mathextra
 Epoch:		1
-Version:	20120224
+Version:	20120413
 Release:	1
 Summary:	Advanced math typesetting
 Group:		Publishing
@@ -39,7 +39,6 @@ Requires:	texlive-nath
 Requires:	texlive-ot-tableau
 Requires:	texlive-oubraces
 Requires:	texlive-proba
-Requires:	texlive-realscripts
 Requires:	texlive-rec-thy
 Requires:	texlive-shuffle
 Requires:	texlive-statex
