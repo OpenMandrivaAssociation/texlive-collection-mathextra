@@ -73,3 +73,16 @@ Extra math.
 %build
 
 %install
+
+
+%changelog
+* Sat Apr 14 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120413-1
++ Revision: 790882
+- Update to latest release.
+
+* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
++ Revision: 780502
+- Update to latest release.
+- Import texlive-collection-mathextra
+- Import texlive-collection-mathextra
+
