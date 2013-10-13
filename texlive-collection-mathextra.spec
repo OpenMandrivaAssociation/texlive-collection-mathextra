@@ -1,4 +1,4 @@
-# revision 25870
+# revision 31137
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,9 +6,9 @@
 # catalog-version undef
 Name:		texlive-collection-mathextra
 Epoch:		1
-Version:	20120413
+Version:	20131013
 Release:	1
-Summary:	Advanced math typesetting
+Summary:	Mathematics packages
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
@@ -16,21 +16,28 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-mathex
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Requires:	texlive-collection-fontsrecommended
+Requires:	texlive-collection-latex
 Requires:	texlive-12many
 Requires:	texlive-amstex
+Requires:	texlive-backnaur
 Requires:	texlive-binomexp
 Requires:	texlive-boldtensors
 Requires:	texlive-bosisio
+Requires:	texlive-bropd
 Requires:	texlive-ccfonts
 Requires:	texlive-commath
 Requires:	texlive-concmath
 Requires:	texlive-concrete
+Requires:	texlive-conteq
 Requires:	texlive-eqnarray
 Requires:	texlive-extarrows
 Requires:	texlive-extpfeil
 Requires:	texlive-faktor
+Requires:	texlive-interval
 Requires:	texlive-ionumbers
 Requires:	texlive-isomath
+Requires:	texlive-lplfitch
 Requires:	texlive-mathcomp
 Requires:	texlive-mattens
 Requires:	texlive-mhequ
@@ -40,7 +47,9 @@ Requires:	texlive-ot-tableau
 Requires:	texlive-oubraces
 Requires:	texlive-proba
 Requires:	texlive-rec-thy
+Requires:	texlive-ribbonproofs
 Requires:	texlive-shuffle
+Requires:	texlive-skmath
 Requires:	texlive-statex
 Requires:	texlive-statex2
 Requires:	texlive-stmaryrd
@@ -57,11 +66,9 @@ Requires:	texlive-unicode-math
 Requires:	texlive-venn
 Requires:	texlive-yhmath
 Requires:	texlive-ytableau
-Requires:	texlive-collection-fontsrecommended
-Requires:	texlive-collection-latex
 
 %description
-Extra math.
+TeXLive collection-mathextra package.
 
 #-----------------------------------------------------------------------
 %files
@@ -73,16 +80,3 @@ Extra math.
 %build
 
 %install
-
-
-%changelog
-* Sat Apr 14 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120413-1
-+ Revision: 790882
-- Update to latest release.
-
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780502
-- Update to latest release.
-- Import texlive-collection-mathextra
-- Import texlive-collection-mathextra
-
