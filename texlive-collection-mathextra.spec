@@ -7,7 +7,7 @@
 Name:		texlive-collection-mathextra
 Epoch:		1
 Version:	20120413
-Release:	1
+Release:	2
 Summary:	Advanced math typesetting
 Group:		Publishing
 URL:		http://tug.org/texlive
