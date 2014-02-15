@@ -1,4 +1,4 @@
-# revision 31137
+# revision 32693
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-mathextra
 Epoch:		1
-Version:	20131013
-Release:	5
+Version:	20140215
+Release:	1
 Summary:	Mathematics packages
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -42,6 +42,7 @@ Requires:	texlive-mathcomp
 Requires:	texlive-mattens
 Requires:	texlive-mhequ
 Requires:	texlive-multiobjective
+Requires:	texlive-natded
 Requires:	texlive-nath
 Requires:	texlive-ot-tableau
 Requires:	texlive-oubraces
