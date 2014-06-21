@@ -1,4 +1,4 @@
-# revision 32693
+# revision 34176
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-mathextra
 Epoch:		1
-Version:	20140215
-Release:	2
+Version:	20140621
+Release:	1
 Summary:	Mathematics packages
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -21,6 +21,7 @@ Requires:	texlive-collection-latex
 Requires:	texlive-12many
 Requires:	texlive-amstex
 Requires:	texlive-backnaur
+Requires:	texlive-begriff
 Requires:	texlive-binomexp
 Requires:	texlive-boldtensors
 Requires:	texlive-bosisio
@@ -34,9 +35,11 @@ Requires:	texlive-eqnarray
 Requires:	texlive-extarrows
 Requires:	texlive-extpfeil
 Requires:	texlive-faktor
+Requires:	texlive-grundgesetze
 Requires:	texlive-interval
 Requires:	texlive-ionumbers
 Requires:	texlive-isomath
+Requires:	texlive-logicproof
 Requires:	texlive-lplfitch
 Requires:	texlive-mathcomp
 Requires:	texlive-mattens
@@ -57,6 +60,7 @@ Requires:	texlive-stmaryrd
 Requires:	texlive-subsupscripts
 Requires:	texlive-susy
 Requires:	texlive-syllogism
+Requires:	texlive-sympytexpackage
 Requires:	texlive-synproof
 Requires:	texlive-tablor
 Requires:	texlive-tensor
