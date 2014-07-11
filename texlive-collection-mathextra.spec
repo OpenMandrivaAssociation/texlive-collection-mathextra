@@ -7,7 +7,7 @@
 Name:		texlive-collection-mathextra
 Epoch:		1
 Version:	20140621
-Release:	1
+Release:	2
 Summary:	Mathematics packages
 Group:		Publishing
 URL:		http://tug.org/texlive
