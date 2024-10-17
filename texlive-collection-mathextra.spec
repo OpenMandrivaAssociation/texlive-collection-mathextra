@@ -10,7 +10,7 @@ Version:	20140621
 Release:	7
 Summary:	Mathematics packages
 Group:		Publishing
-URL:		http://tug.org/texlive
+URL:		https://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-mathextra.tar.xz
 BuildArch:	noarch
